@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(
+            ['io.rest-assured:rest-assured:4.4.0'],
+            ['io.rest-assured:json-schema-validator:4.4.0'],
+            ['org.junit.jupiter:junit-jupiter-engine:5.6.1'],
+            ['org.junit.jupiter:junit-jupiter-params:5.6.1']
+    )
+}
+
+test {
+    useJUnitPlatform()
+}
