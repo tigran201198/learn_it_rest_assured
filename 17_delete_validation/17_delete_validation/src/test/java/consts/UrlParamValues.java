@@ -17,7 +17,7 @@ public class UrlParamValues {
             "token", "492343b8106e7df3ebb7f01e219cbf32827c852a5f9e2b8f9ca296b1cc604955"
     );
 
-    public static final String EXISTING_BOARD_ID = "60d847d9aad2437cb984f8e0";
+    public static final String EXISTING_BOARD_ID = "6288cc5d3ce8fc87542dff31";
     public static final String BOARD_ID_TO_UPDATE = "60d84769c4ce7a09f9140220";
     public static final String USER_NAME = "learnpostman";
 }
